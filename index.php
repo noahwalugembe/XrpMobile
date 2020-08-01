@@ -10,9 +10,9 @@
 //header('Content-type: text/plain');
 
 /* local db configuration */
-$dsn = 'mysql:dbname=old_vision_archive;host=localhost;'; //database name
+$dsn = 'mysql:dbname=;host=localhost;'; //database name
 $user = 'root'; // your mysql user 
-$password = 'vision@2020'; // your mysql password
+$password = ''; // your mysql password
 
 //  Create a PDO instance that will allow you to access your database
 try {
